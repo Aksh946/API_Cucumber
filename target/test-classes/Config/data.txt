@@ -1,0 +1,11 @@
+BaseURI = https://fakerestapi.azurewebsites.net
+End_GET_POST = api/v1/Activities
+End_PUT_DELETE = api/v1/Activities/24
+File_Path = C:\\Users\\aksh.pundir\\eclipse-workspace\\API_Testing_Cucumber\\src\\test\\resources\\request body\\Activities.txt
+
+
+BaseURI_room =  https://dummy.restapiexample.com
+EndLocator_post_room = api/v1/create
+EndLocator_put_room = api/v1/update/8918
+EndLocator_delete_room = api/v1/delete/2  
+File_path_room = C:\\Users\\aksh.pundir\\eclipse-workspace\\API_Testing_Cucumber\\src\\test\\resources\\request body\\Room.txt

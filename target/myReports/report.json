@@ -1,0 +1,135 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-09-13T08:47:37.685Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3999500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Automation.StepsDef.Hooks.precondition()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "Using POST request to add information within the request body from Room_restAPI.",
+        "description": "",
+        "id": "verify-the-rest-api--\u003e-room-using-java-based-library.;using-post-request-to-add-information-within-the-request-body-from-room-restapi.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3487658100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "POST request to base URL as \"BASE_URI\" and endLocator as \"END_Locator\" to Room_restAPI.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BASE_URI\"",
+                  "offset": 28
+                },
+                {
+                  "val": "\"END_Locator\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Com.Automation.StepsDef.Room_steps.post_request_to_base_url_as_and_end_locator_as_to_room_rest_api(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 939582900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Validate response body of POST request of Room_restAPI.",
+            "match": {
+              "location": "Com.Automation.StepsDef.Room_steps.validate_response_body_of_post_request_of_room_rest_api()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@POST_Request"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-09-13T08:47:42.249Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Com.Automation.StepsDef.Hooks.precondition()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Using PUT request to update information on server from Room_restAPI.",
+        "description": "",
+        "id": "verify-the-rest-api--\u003e-room-using-java-based-library.;using-put-request-to-update-information-on-server-from-room-restapi.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1028433600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "PUT request to base URL as \"BASE_URI\"  and endLocator as \"END_Locator\" to Room_restAPI.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"BASE_URI\"",
+                  "offset": 27
+                },
+                {
+                  "val": "\"END_Locator\"",
+                  "offset": 57
+                }
+              ],
+              "location": "Com.Automation.StepsDef.Room_steps.put_request_to_base_url_as_and_end_locator_as_to_room_rest_api(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 68138800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Validate response body of PUT request of Room_restAPI",
+            "match": {
+              "location": "Com.Automation.StepsDef.Room_steps.validate_response_body_of_put_request_of_room_rest_api()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@PUT_Request"
+          }
+        ]
+      }
+    ],
+    "name": "Verify the REST API -\u003e Room using java_based_library.",
+    "description": "",
+    "id": "verify-the-rest-api--\u003e-room-using-java-based-library.",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Feature/Room.feature",
+    "tags": []
+  }
+]
